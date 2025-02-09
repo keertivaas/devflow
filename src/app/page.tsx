@@ -1,11 +1,9 @@
-import ClientComponent from "./components/ClientComponent";
-
 export default function Home() {
-  console.log('Server comp');
-  return(
+  console.log("Server comp");
+  return (
     <>
-    <h3>Hello NextJS</h3>
-    <ClientComponent />
+      <h3 className="font-spaceGrotesk">Hello NextJS</h3>
+      <h3 className="font-inter">Hello NextJS V2</h3>
     </>
-  )
+  );
 }
